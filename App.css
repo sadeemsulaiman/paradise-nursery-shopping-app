@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-page {
+  /* Implementing the required background image for the landing page */
+  background-image: url('https://images.unsplash.com/photo-1466692476877-36151476d053?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  text-align: center;
+}
+
+.landing-page h1 {
+  font-size: 4rem;
+  margin-bottom: 10px;
+}
+
+.get-started-btn {
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.get-started-btn:hover {
+  background-color: #45a049;
+}
